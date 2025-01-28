@@ -24,7 +24,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-github-username>/PIXELife.git
+   git clone https://github.com/JoannaGawr/PIXELife.git
 
 2. Install CocoaPods dependencies:
    ```bash
@@ -43,7 +43,7 @@ Questions or feedback?
 - **Email:** joannagawryszewska@example.com
 - **GitHub:** @joannagawryszewska
 
-
+<br>
 
 ## Bring your year to life, one pixel at a time! 🌈
 
