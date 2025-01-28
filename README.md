@@ -40,8 +40,8 @@
 ## Contact
 Questions or feedback?
 
-- **Email:** joannagawryszewska@example.com
-- **GitHub:** @joannagawryszewska
+- **Email:** gawryszewska.joannaa@gmail.com
+- **GitHub:** @JoannaGawr
 
 <br>
 
