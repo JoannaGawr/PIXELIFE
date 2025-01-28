@@ -8,12 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		C401CA4E2C98B68800A5BC9C /* PIXELifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA4D2C98B68800A5BC9C /* PIXELifeApp.swift */; };
-		C401CA502C98B68800A5BC9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA4F2C98B68800A5BC9C /* ContentView.swift */; };
+		C401CA502C98B68800A5BC9C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA4F2C98B68800A5BC9C /* MainView.swift */; };
 		C401CA522C98B68800A5BC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C401CA512C98B68800A5BC9C /* Assets.xcassets */; };
 		C401CA552C98B68800A5BC9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C401CA542C98B68800A5BC9C /* Preview Assets.xcassets */; };
 		C401CA5F2C98B68900A5BC9C /* PIXELifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA5E2C98B68900A5BC9C /* PIXELifeTests.swift */; };
 		C401CA692C98B68900A5BC9C /* PIXELifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA682C98B68900A5BC9C /* PIXELifeUITests.swift */; };
 		C401CA6B2C98B68900A5BC9C /* PIXELifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA6A2C98B68900A5BC9C /* PIXELifeUITestsLaunchTests.swift */; };
+		C401CA7C2C98B99F00A5BC9C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA7B2C98B99F00A5BC9C /* LoginView.swift */; };
+		C401CA7E2C98B9AE00A5BC9C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA7D2C98B9AE00A5BC9C /* RegisterView.swift */; };
+		C401CA802C98BADF00A5BC9C /* PixelAllSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA7F2C98BADF00A5BC9C /* PixelAllSheetsView.swift */; };
+		C401CA822C98BAF300A5BC9C /* PixelSingleSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA812C98BAF300A5BC9C /* PixelSingleSheetView.swift */; };
+		C401CA842C98BB1700A5BC9C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA832C98BB1700A5BC9C /* ProfileView.swift */; };
+		C401CA8A2C9EC04200A5BC9C /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C401CA892C9EC04200A5BC9C /* Minecraft.ttf */; };
+		C401CA8C2C9EC04E00A5BC9C /* Bungee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C401CA8B2C9EC04E00A5BC9C /* Bungee-Regular.ttf */; };
+		C401CA902C9EC22E00A5BC9C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA8F2C9EC22E00A5BC9C /* HeaderView.swift */; };
+		C401CA922C9EC56D00A5BC9C /* PIXELOWE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C401CA912C9EC56D00A5BC9C /* PIXELOWE.TTF */; };
+		C401CA942C9ECF4A00A5BC9C /* PIXELifeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA932C9ECF4A00A5BC9C /* PIXELifeButton.swift */; };
+		C401CA972C9ED1A700A5BC9C /* LoginVievViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA962C9ED1A700A5BC9C /* LoginVievViewModel.swift */; };
+		C401CA992C9F10AF00A5BC9C /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA982C9F10AF00A5BC9C /* WelcomeScreenView.swift */; };
+		C401CA9B2C9F1ACF00A5BC9C /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA9A2C9F1ACF00A5BC9C /* RegisterViewViewModel.swift */; };
+		C401CA9D2C9F567700A5BC9C /* PixelSingleSheetViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CA9C2C9F567700A5BC9C /* PixelSingleSheetViewViewModel.swift */; };
+		C401CB882CDD3E5A00A5BC9C /* DayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB872CDD3E5A00A5BC9C /* DayInfo.swift */; };
+		C401CB8A2CDD449900A5BC9C /* DayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB892CDD449900A5BC9C /* DayInfoView.swift */; };
+		C401CB8C2CE0DFFE00A5BC9C /* RateTheDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB8B2CE0DFFE00A5BC9C /* RateTheDayView.swift */; };
+		C401CB8E2CE0E62500A5BC9C /* SingleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CB8D2CE0E62500A5BC9C /* SingleRatingView.swift */; };
+		C4A2404A2CE1484400F3DD16 /* YearInPixelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A240492CE1484400F3DD16 /* YearInPixelsView.swift */; };
+		C4A2404C2CE5277F00F3DD16 /* DayRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2404B2CE5277F00F3DD16 /* DayRating.swift */; };
+		C4A2404E2CE5299000F3DD16 /* DayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2404D2CE5299000F3DD16 /* DayCellView.swift */; };
+		C4A240502CE743EB00F3DD16 /* YearData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2404F2CE743EB00F3DD16 /* YearData.swift */; };
+		C4A2408E2CEDFB8B00F3DD16 /* DayRatingDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2408D2CEDFB8B00F3DD16 /* DayRatingDescription.swift */; };
+		C4A240902CF2008400F3DD16 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2408F2CF2008400F3DD16 /* Test.swift */; };
+		C4A240922D061D1A00F3DD16 /* DescriptionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A240912D061D1A00F3DD16 /* DescriptionsListView.swift */; };
+		C4A240952D072DBE00F3DD16 /* PhotoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A240942D072DBE00F3DD16 /* PhotoPreviewView.swift */; };
+		C4A240992D0732DD00F3DD16 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A240982D0732DD00F3DD16 /* PhotoPickerView.swift */; };
+		C4E29BD52D19519B003B9DFB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C4E29BD42D19519B003B9DFB /* FirebaseAuth */; };
+		C4E29BD72D19519B003B9DFB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C4E29BD62D19519B003B9DFB /* FirebaseFirestore */; };
+		C4E29BDD2D22FCB6003B9DFB /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E29BDC2D22FCB6003B9DFB /* ProfileViewViewModel.swift */; };
+		C4E29BDF2D22FD46003B9DFB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E29BDE2D22FD46003B9DFB /* User.swift */; };
+		C4E29BE12D23048B003B9DFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E29BE02D23048B003B9DFB /* Extensions.swift */; };
+		C4E29BE42D230990003B9DFB /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E29BE32D230990003B9DFB /* MainViewViewModel.swift */; };
+		C4E29BE62D2D7BB4003B9DFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4E29BE52D2D7BB4003B9DFB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +70,7 @@
 /* Begin PBXFileReference section */
 		C401CA4A2C98B68800A5BC9C /* PIXELife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIXELife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C401CA4D2C98B68800A5BC9C /* PIXELifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIXELifeApp.swift; sourceTree = "<group>"; };
-		C401CA4F2C98B68800A5BC9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C401CA4F2C98B68800A5BC9C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C401CA512C98B68800A5BC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C401CA542C98B68800A5BC9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C401CA5A2C98B68900A5BC9C /* PIXELifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIXELifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +78,39 @@
 		C401CA642C98B68900A5BC9C /* PIXELifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PIXELifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C401CA682C98B68900A5BC9C /* PIXELifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIXELifeUITests.swift; sourceTree = "<group>"; };
 		C401CA6A2C98B68900A5BC9C /* PIXELifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIXELifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C401CA7B2C98B99F00A5BC9C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C401CA7D2C98B9AE00A5BC9C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C401CA7F2C98BADF00A5BC9C /* PixelAllSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelAllSheetsView.swift; sourceTree = "<group>"; };
+		C401CA812C98BAF300A5BC9C /* PixelSingleSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelSingleSheetView.swift; sourceTree = "<group>"; };
+		C401CA832C98BB1700A5BC9C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C401CA852C9EBFB200A5BC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C401CA892C9EC04200A5BC9C /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		C401CA8B2C9EC04E00A5BC9C /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bungee-Regular.ttf"; sourceTree = "<group>"; };
+		C401CA8F2C9EC22E00A5BC9C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C401CA912C9EC56D00A5BC9C /* PIXELOWE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PIXELOWE.TTF; sourceTree = "<group>"; };
+		C401CA932C9ECF4A00A5BC9C /* PIXELifeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIXELifeButton.swift; sourceTree = "<group>"; };
+		C401CA962C9ED1A700A5BC9C /* LoginVievViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVievViewModel.swift; sourceTree = "<group>"; };
+		C401CA982C9F10AF00A5BC9C /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		C401CA9A2C9F1ACF00A5BC9C /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		C401CA9C2C9F567700A5BC9C /* PixelSingleSheetViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelSingleSheetViewViewModel.swift; sourceTree = "<group>"; };
+		C401CB872CDD3E5A00A5BC9C /* DayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInfo.swift; sourceTree = "<group>"; };
+		C401CB892CDD449900A5BC9C /* DayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInfoView.swift; sourceTree = "<group>"; };
+		C401CB8B2CE0DFFE00A5BC9C /* RateTheDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheDayView.swift; sourceTree = "<group>"; };
+		C401CB8D2CE0E62500A5BC9C /* SingleRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRatingView.swift; sourceTree = "<group>"; };
+		C4A240492CE1484400F3DD16 /* YearInPixelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInPixelsView.swift; sourceTree = "<group>"; };
+		C4A2404B2CE5277F00F3DD16 /* DayRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRating.swift; sourceTree = "<group>"; };
+		C4A2404D2CE5299000F3DD16 /* DayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCellView.swift; sourceTree = "<group>"; };
+		C4A2404F2CE743EB00F3DD16 /* YearData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearData.swift; sourceTree = "<group>"; };
+		C4A2408D2CEDFB8B00F3DD16 /* DayRatingDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRatingDescription.swift; sourceTree = "<group>"; };
+		C4A2408F2CF2008400F3DD16 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C4A240912D061D1A00F3DD16 /* DescriptionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionsListView.swift; sourceTree = "<group>"; };
+		C4A240942D072DBE00F3DD16 /* PhotoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewView.swift; sourceTree = "<group>"; };
+		C4A240982D0732DD00F3DD16 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		C4E29BDC2D22FCB6003B9DFB /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		C4E29BDE2D22FD46003B9DFB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4E29BE02D23048B003B9DFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4E29BE32D230990003B9DFB /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		C4E29BE52D2D7BB4003B9DFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E29BD52D19519B003B9DFB /* FirebaseAuth in Frameworks */,
+				C4E29BD72D19519B003B9DFB /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +143,11 @@
 		C401CA412C98B68800A5BC9C = {
 			isa = PBXGroup;
 			children = (
+				C401CA882C9EC02F00A5BC9C /* Fonts */,
+				C401CA7A2C98B78D00A5BC9C /* Other */,
+				C401CA792C98B78600A5BC9C /* ViewModels */,
+				C401CA782C98B77B00A5BC9C /* Models */,
+				C401CA772C98B77200A5BC9C /* Views */,
 				C401CA4C2C98B68800A5BC9C /* PIXELife */,
 				C401CA5D2C98B68900A5BC9C /* PIXELifeTests */,
 				C401CA672C98B68900A5BC9C /* PIXELifeUITests */,
@@ -94,8 +168,9 @@
 		C401CA4C2C98B68800A5BC9C /* PIXELife */ = {
 			isa = PBXGroup;
 			children = (
+				C4E29BE52D2D7BB4003B9DFB /* GoogleService-Info.plist */,
+				C401CA852C9EBFB200A5BC9C /* Info.plist */,
 				C401CA4D2C98B68800A5BC9C /* PIXELifeApp.swift */,
-				C401CA4F2C98B68800A5BC9C /* ContentView.swift */,
 				C401CA512C98B68800A5BC9C /* Assets.xcassets */,
 				C401CA532C98B68800A5BC9C /* Preview Content */,
 			);
@@ -127,6 +202,73 @@
 			path = PIXELifeUITests;
 			sourceTree = "<group>";
 		};
+		C401CA772C98B77200A5BC9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C401CA4F2C98B68800A5BC9C /* MainView.swift */,
+				C401CA7D2C98B9AE00A5BC9C /* RegisterView.swift */,
+				C401CA8F2C9EC22E00A5BC9C /* HeaderView.swift */,
+				C401CA7B2C98B99F00A5BC9C /* LoginView.swift */,
+				C401CA982C9F10AF00A5BC9C /* WelcomeScreenView.swift */,
+				C4A240492CE1484400F3DD16 /* YearInPixelsView.swift */,
+				C401CB8B2CE0DFFE00A5BC9C /* RateTheDayView.swift */,
+				C401CA7F2C98BADF00A5BC9C /* PixelAllSheetsView.swift */,
+				C401CA812C98BAF300A5BC9C /* PixelSingleSheetView.swift */,
+				C401CA832C98BB1700A5BC9C /* ProfileView.swift */,
+				C401CB892CDD449900A5BC9C /* DayInfoView.swift */,
+				C401CB8D2CE0E62500A5BC9C /* SingleRatingView.swift */,
+				C4A2404D2CE5299000F3DD16 /* DayCellView.swift */,
+				C4A2408D2CEDFB8B00F3DD16 /* DayRatingDescription.swift */,
+				C4A2408F2CF2008400F3DD16 /* Test.swift */,
+				C4A240912D061D1A00F3DD16 /* DescriptionsListView.swift */,
+				C4A240942D072DBE00F3DD16 /* PhotoPreviewView.swift */,
+				C4A240982D0732DD00F3DD16 /* PhotoPickerView.swift */,
+				C401CA932C9ECF4A00A5BC9C /* PIXELifeButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C401CA782C98B77B00A5BC9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C401CB872CDD3E5A00A5BC9C /* DayInfo.swift */,
+				C4A2404B2CE5277F00F3DD16 /* DayRating.swift */,
+				C4A2404F2CE743EB00F3DD16 /* YearData.swift */,
+				C4E29BDE2D22FD46003B9DFB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C401CA792C98B78600A5BC9C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C401CA962C9ED1A700A5BC9C /* LoginVievViewModel.swift */,
+				C401CA9A2C9F1ACF00A5BC9C /* RegisterViewViewModel.swift */,
+				C401CA9C2C9F567700A5BC9C /* PixelSingleSheetViewViewModel.swift */,
+				C4E29BDC2D22FCB6003B9DFB /* ProfileViewViewModel.swift */,
+				C4E29BE32D230990003B9DFB /* MainViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C401CA7A2C98B78D00A5BC9C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C4E29BE02D23048B003B9DFB /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C401CA882C9EC02F00A5BC9C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C401CA892C9EC04200A5BC9C /* Minecraft.ttf */,
+				C401CA8B2C9EC04E00A5BC9C /* Bungee-Regular.ttf */,
+				C401CA912C9EC56D00A5BC9C /* PIXELOWE.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +285,10 @@
 			dependencies = (
 			);
 			name = PIXELife;
+			packageProductDependencies = (
+				C4E29BD42D19519B003B9DFB /* FirebaseAuth */,
+				C4E29BD62D19519B003B9DFB /* FirebaseFirestore */,
+			);
 			productName = PIXELife;
 			productReference = C401CA4A2C98B68800A5BC9C /* PIXELife.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +361,9 @@
 				Base,
 			);
 			mainGroup = C401CA412C98B68800A5BC9C;
+			packageReferences = (
+				C4E29BD32D195076003B9DFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C401CA4B2C98B68800A5BC9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +380,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C401CA8A2C9EC04200A5BC9C /* Minecraft.ttf in Resources */,
 				C401CA552C98B68800A5BC9C /* Preview Assets.xcassets in Resources */,
 				C401CA522C98B68800A5BC9C /* Assets.xcassets in Resources */,
+				C401CA8C2C9EC04E00A5BC9C /* Bungee-Regular.ttf in Resources */,
+				C401CA922C9EC56D00A5BC9C /* PIXELOWE.TTF in Resources */,
+				C4E29BE62D2D7BB4003B9DFB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +410,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C401CA502C98B68800A5BC9C /* ContentView.swift in Sources */,
+				C401CB8A2CDD449900A5BC9C /* DayInfoView.swift in Sources */,
+				C401CA802C98BADF00A5BC9C /* PixelAllSheetsView.swift in Sources */,
+				C401CA822C98BAF300A5BC9C /* PixelSingleSheetView.swift in Sources */,
+				C401CB882CDD3E5A00A5BC9C /* DayInfo.swift in Sources */,
+				C401CA9B2C9F1ACF00A5BC9C /* RegisterViewViewModel.swift in Sources */,
+				C4A2404A2CE1484400F3DD16 /* YearInPixelsView.swift in Sources */,
+				C401CA9D2C9F567700A5BC9C /* PixelSingleSheetViewViewModel.swift in Sources */,
+				C4E29BE12D23048B003B9DFB /* Extensions.swift in Sources */,
+				C4E29BE42D230990003B9DFB /* MainViewViewModel.swift in Sources */,
+				C4A2404E2CE5299000F3DD16 /* DayCellView.swift in Sources */,
+				C401CA972C9ED1A700A5BC9C /* LoginVievViewModel.swift in Sources */,
+				C401CA992C9F10AF00A5BC9C /* WelcomeScreenView.swift in Sources */,
+				C401CB8E2CE0E62500A5BC9C /* SingleRatingView.swift in Sources */,
+				C4A240992D0732DD00F3DD16 /* PhotoPickerView.swift in Sources */,
+				C4A240922D061D1A00F3DD16 /* DescriptionsListView.swift in Sources */,
+				C401CA7C2C98B99F00A5BC9C /* LoginView.swift in Sources */,
+				C4E29BDD2D22FCB6003B9DFB /* ProfileViewViewModel.swift in Sources */,
+				C401CA7E2C98B9AE00A5BC9C /* RegisterView.swift in Sources */,
+				C401CA502C98B68800A5BC9C /* MainView.swift in Sources */,
+				C401CA942C9ECF4A00A5BC9C /* PIXELifeButton.swift in Sources */,
+				C4A240902CF2008400F3DD16 /* Test.swift in Sources */,
+				C401CA842C98BB1700A5BC9C /* ProfileView.swift in Sources */,
+				C4E29BDF2D22FD46003B9DFB /* User.swift in Sources */,
+				C4A2408E2CEDFB8B00F3DD16 /* DayRatingDescription.swift in Sources */,
 				C401CA4E2C98B68800A5BC9C /* PIXELifeApp.swift in Sources */,
+				C4A2404C2CE5277F00F3DD16 /* DayRating.swift in Sources */,
+				C401CB8C2CE0DFFE00A5BC9C /* RateTheDayView.swift in Sources */,
+				C4A240502CE743EB00F3DD16 /* YearData.swift in Sources */,
+				C4A240952D072DBE00F3DD16 /* PhotoPreviewView.swift in Sources */,
+				C401CA902C9EC22E00A5BC9C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +606,11 @@
 				DEVELOPMENT_TEAM = BS839KG766;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIXELife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +635,11 @@
 				DEVELOPMENT_TEAM = BS839KG766;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIXELife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +769,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4E29BD32D195076003B9DFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4E29BD42D19519B003B9DFB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E29BD32D195076003B9DFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C4E29BD62D19519B003B9DFB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E29BD32D195076003B9DFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C401CA422C98B68800A5BC9C /* Project object */;
 }
